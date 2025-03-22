@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Right at School Variety Show</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      color: #333;
+      background: #f4f4f4;
+    }
+    header {
+      background: #1e3a8a;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header img {
+      max-width: 200px;
+      height: auto;
+      display: block;
+      margin: 0 auto 15px;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #0ea5e9;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 15px 20px;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      background: #0284c7;
+    }
+    .container {
+      width: 90%;
+      max-width: 1100px;
+      margin: auto;
+      overflow: hidden;
+      padding: 20px;
+    }
+    section {
+      background: #fff;
+      padding: 30px;
+      margin: 20px 0;
+      border-radius: 8px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    }
+    section h2 {
+      margin-top: 0;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li {
+      background: #f1f1f1;
+      margin: 10px 0;
+      padding: 10px;
+      border-left: 5px solid #1e3a8a;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    table th, table td {
+      padding: 12px;
+      border: 1px solid #ccc;
+      text-align: center;
+    }
+    table th {
+      background: #1e3a8a;
+      color: #fff;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #333;
+      color: #fff;
+    }
+    .btn {
+      display: inline-block;
+      padding: 12px 25px;
+      background: #10b981;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #059669;
+    }
+    @media (max-width: 768px) {
+      nav a {
+        padding: 10px;
+      }
+      table, th, td {
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <img src="images/logo.png" alt="Right at School Logo">
+  <h1>🎤 Right at School Variety Show 🎭</h1>
+  <p>Experience the incredible talents of our students!</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#performers">Performers</a>
+  <a href="#schedule">Schedule</a>
+</nav>
+
+<div class="container">
+
+  <section id="about">
+    <h2>About the Show</h2>
+    <p>Welcome to the Right at School Variety Show! Enjoy an evening of music, dance, comedy, and more, showcasing the creativity and talent of our students.</p>
+  </section>
+
+  <section id="performers">
+    <h2>Meet the Performers</h2>
+    <ul>
+      <li><strong>Emma Davis:</strong> Singing performance</li>
+      <li><strong>Jackson Lee:</strong> Comedy routine</li>
+      <li><strong>Grace Taylor:</strong> Dance performance</li>
+      <li><strong>Right at School Band:</strong> Musical ensemble</li>
+    </ul>
+  </section>
+
+  <section id="schedule">
+    <h2>Show Schedule</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Time</th>
+          <th>Performance</th>
+          <th>Performer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>5:00 PM</td>
+          <td>Doors Open</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>5:30 PM</td>
+          <td>Opening Act</td>
+          <td>Right at School Band</td>
+        </tr>
+        <tr>
+          <td>6:00 PM</td>
+          <td>Singing Performance</td>
+          <td>Emma Davis</td>
+        </tr>
+        <tr>
+          <td>6:30 PM</td>
+          <td>Comedy Routine</td>
+          <td>Jackson Lee</td>
+        </tr>
+        <tr>
+          <td>7:00 PM</td>
+          <td>Dance Performance</td>
+          <td>Grace Taylor</td>
+        </tr>
+        <tr>
+          <td>7:30 PM</td>
+          <td>Finale</td>
+          <td>All Performers</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+</div>
+
+<footer>
+  <p>© 2025 Right at School Variety Show. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
